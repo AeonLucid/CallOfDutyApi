@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testings", "Testings", "{EC821DC1-48DC-4323-B80F-96098302376B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallOfDuty", "CallOfDuty\CallOfDuty.csproj", "{A86554F0-9480-4BA9-B33B-A8E55A9FB741}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallOfDutyApi", "CallOfDutyApi\CallOfDutyApi.csproj", "{B56A9D0E-FFA9-4FBC-BB19-CF96970A7C04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A86554F0-9480-4BA9-B33B-A8E55A9FB741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86554F0-9480-4BA9-B33B-A8E55A9FB741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86554F0-9480-4BA9-B33B-A8E55A9FB741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86554F0-9480-4BA9-B33B-A8E55A9FB741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56A9D0E-FFA9-4FBC-BB19-CF96970A7C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56A9D0E-FFA9-4FBC-BB19-CF96970A7C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56A9D0E-FFA9-4FBC-BB19-CF96970A7C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56A9D0E-FFA9-4FBC-BB19-CF96970A7C04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A86554F0-9480-4BA9-B33B-A8E55A9FB741} = {EC821DC1-48DC-4323-B80F-96098302376B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2669F389-1C9C-47E3-9549-CC3BA0459CB8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+# Version will be manually specified through src\CallOfDutyApi.csproj instead of CI versioning.
+
+branches:
+  only:
+  - master
+
+assembly_info:
+  patch: false
+
+configuration: Release
+
+environment:
+  DOTNET_CLI_TELEMETRY_OPTOUT: 1
+
+before_build:
+  - appveyor-retry dotnet restore "src" -v Minimal
+
+build_script:
+  - dotnet build "src\CallOfDuty" -c Release
+  - dotnet build "src\CallOfDutyApi" -c Release
+  
+after_build:
+  - dotnet pack "src\CallOfDutyApi" -c Release --no-build -o artifacts
+  
+artifacts:
+  - path: .\**\artifacts\*.nupkg

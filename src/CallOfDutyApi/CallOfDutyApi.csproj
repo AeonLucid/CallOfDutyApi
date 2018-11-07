@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>AeonLucid</Authors>
+    <Description>An C# client library for the TrackerNetwork Call Of Duty API.</Description>
+    <RepositoryUrl>https://github.com/AeonLucid/CallOfDutyApi</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>callofduty;blackout;blackops4</PackageTags>
+    <PackageProjectUrl>https://github.com/AeonLucid/CallOfDutyApi</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/AeonLucid/CallOfDutyApi/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>AeonLucid</Copyright>
+    <Version>1.0.0</Version>
+    <Product>CallOfDutyApi</Product>
+    <Company>AeonLucid</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="2.4.0" />
+  </ItemGroup>
+</Project>
