@@ -3,7 +3,7 @@ CallOfDutyApi
 [![NuGet](https://img.shields.io/nuget/v/CallOfDutyApi.svg?maxAge=60)](https://www.nuget.org/packages/CallOfDutyApi)
 ===================
 
-This library makes use of https://fortnitetracker.com/site-api.  
+This library makes use of https://cod.tracker.gg/site-api.  
 Make sure to request an API key there and follow their guidelines.
 
 ## Installation
